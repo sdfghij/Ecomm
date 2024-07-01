@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+          <div class="flex space-x-4">
+            <!-- Logo -->
+            <div>
+              <a
+                href="#"
+                class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900"
+              >
+                <svg
+                  class="h-6 w-6 mr-1 text-blue-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 2a10 10 0 100 20 10 10 0 000-20z"
+                  />
+                </svg>
+                <span class="font-bold">MyWebsite</span>
+              </a>
+            </div>
+
+            <!-- Primary Nav -->
+            <div class="hidden md:flex items-center space-x-1">
+              <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
+                >Home</a
+              >
+              <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
+                >Product</a
+              >
+              <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
+                >About</a
+              >
+              <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
+                >Contact</a
+              >
+            </div>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="md:hidden flex items-center">
+            <button class="mobile-menu-button">
+              <svg
+                class="w-6 h-6 text-gray-700 hover:text-gray-900"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu hidden md:hidden">
+        <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a>
+        <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200"
+          >Product</a
+        >
+        <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">About</a>
+        <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200"
+          >Contact</a
+        >
+      </div>
+    </nav>
+
+    <div
+      id="productDiv"
+      class="flex flex-wrap justify-center items-center"
+    ></div>
+
+ 
+    
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+      <div class="max-w-6xl mx-auto px-4 py-6">
+        <div class="flex justify-between">
+          <div>
+            <h2 class="text-lg font-bold">MyWebsite</h2>
+            <p class="text-gray-400">© 2023 MyWebsite. All rights reserved.</p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white">Home</a>
+            <a href="#" class="text-gray-400 hover:text-white">Product</a>
+            <a href="#" class="text-gray-400 hover:text-white">About</a>
+            <a href="#" class="text-gray-400 hover:text-white">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./promise.js"></script>
+  </body>
+</html>
